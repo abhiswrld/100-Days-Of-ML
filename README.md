@@ -30,3 +30,4 @@ The folders are organized based on the course curriculum. Here is my progress so
 * **Days 15-17:** Learned how to bring in data from diverse sources including CSVs, JSON, SQL databases, and web APIs.
 * **Day 18:** Successfully scraped quotes, authors, and tags from a sandbox website and structured them into a Pandas DataFrame!
 * **Days 19-22:** Mastered Exploratory Data Analysis (EDA) to understand datasets and used Pandas Profiling for automated reporting.
+* **Day 23:** Started the Feature Engineering module, focusing on different types and techniques for preparing raw data for ML models.
