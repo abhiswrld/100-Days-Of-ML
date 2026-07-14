@@ -31,3 +31,4 @@ The folders are organized based on the course curriculum. Here is my progress so
 * **Day 18:** Successfully scraped quotes, authors, and tags from a sandbox website and structured them into a Pandas DataFrame!
 * **Days 19-22:** Mastered Exploratory Data Analysis (EDA) to understand datasets and used Pandas Profiling for automated reporting.
 * **Day 23:** Started the Feature Engineering module, focusing on different types and techniques for preparing raw data for ML models.
+* **Day 24:** Learned about the first topic of Feature Scaling, more importantly Standardization. Understood why it is necessary to standardize data since it helps with model performance in the long run.
