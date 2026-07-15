@@ -33,3 +33,4 @@ The folders are organized based on the course curriculum. Here is my progress so
 * **Day 23:** Started the Feature Engineering module, focusing on different types and techniques for preparing raw data for ML models.
 * **Day 24:** Learned about the first topic of Feature Scaling, more importantly Standardization. Understood why it is necessary to standardize data since it helps with model performance in the long run.
 * **Day 25:** Normalization is very helpful, especially when we know the min and max value in the dataset (then we can use MinMaxScaling). For outliers use RobustScaling, and for space data we use MaxAbsScaling.
+* **Day 26:** Ordinal Encoding is used for categorical data that is presented in some order (such as rankings), one important thing is to know that label encoding is used for only target variables.
