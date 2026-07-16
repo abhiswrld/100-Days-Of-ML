@@ -22,7 +22,9 @@ The folders are organized based on the course curriculum. Here is my progress so
 * **Language:** Python
 * **Data Extraction:** `requests`, `BeautifulSoup4`
 * **Data Manipulation:** `pandas`, `numpy`
-* **Machine Learning & Preprocessing:** `scikit-learn` (Importers, Encoders, ColumnTransformer, Pipelines)
+* **Data Visualization:** `matplotlib`, `seaborn`
+* **Statistics:** `scipy`
+* **Machine Learning & Preprocessing:** `scikit-learn` (Pipelines, Transformers, Encoders, Linear & Tree Models)
 * **Environment:** VS Code (with Jupyter Extension)
 
 ## Progress Log
