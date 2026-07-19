@@ -14,6 +14,7 @@ The folders are organized based on the course curriculum. Here is my progress so
 * 📁 `Day_17_Fetching_Data_API/` - Hitting APIs to gather external data.
 * 📁 `Day_18_Web_Scraping/` - Using BeautifulSoup and requests (Scraping Quotes to Scrape).
 * 📁 `Day_19_to_22_EDA/` - Exploratory Data Analysis (Univariate, Bivariate, Multivariate) and Pandas Profiling.
+* 📁 `Day_23_to_34_Feature_Engineering/` - Feature Scaling, Categorical Encoding, ColumnTransformers, Pipelines, Mathematical & Power Transformations, and Date/Time variables.
 
 *(I will continue adding folders as I progress through the course!)*
 
@@ -45,3 +46,4 @@ The folders are organized based on the course curriculum. Here is my progress so
 * **Day 32:** Covered Discretization (Binning) using `KBinsDiscretizer` to convert continuous numerical features into categorical bins, which helps handle outliers and improve value spread. I applied KMeans and Quantile strategies via `ColumnTransformer`, evaluated the impact on a Decision Tree's accuracy, and visualized the distribution shifts using Matplotlib.
 * **Day 33:** Messed around with Handling Mixed Data to clean columns containing both numerical and categorical information (like the Titanic dataset's Cabin and Ticket features). I learned how to separate these into distinct columns using Pandas techniques like `pd.to_numeric`, `np.where`, regex extraction (`str.extract`), string slicing, and lambda functions.
 * **Day 34:** Explored Date and Time Variables. I learned how to convert string columns to datetime objects using `pd.to_datetime`. Using the Pandas `.dt` accessor, I extracted features like the year, month, day, day of the week, week of the year, and time components (hour, minute, second). I also created custom boolean flags (like checking if a day falls on a weekend) and calculated elapsed time using the `datetime` module.
+* **Day 35:** Started the "Handling Missing Data" module. Mapped out the differences between Univariate (mean/median/mode) and Multivariate (KNN/Iterative) imputation. Focused today on **Complete Case Analysis (CCA)**—the technique of dropping rows with missing values. I learned the golden rule: only apply CCA if the missing data is Missing Completely at Random (MCAR) and makes up less than 5% of the dataset. I used Matplotlib (histograms and KDE density plots) and Pandas to visually and numerically prove that the data distributions for both numerical and categorical variables remained identical before and after dropping the rows!
