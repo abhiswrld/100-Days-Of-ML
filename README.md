@@ -50,3 +50,4 @@ The folders are organized based on the course curriculum. Here is my progress so
 * **Day 36:** Handled missing numerical data using Mean/Median imputation (depending on distribution skew) and Arbitrary Value imputation via Scikit-Learn's `SimpleImputer`.
 * **Day 37:** Handled missing categorical data using Most Frequent (Mode) imputation for MCAR data, and created a dedicated "Missing" category for columns with too many missing values.
 * **Day 38:** Learned Random Sample Imputation to preserve data variance. Used Scikit-Learn's `MissingIndicator` to flag missing values for the model, and applied `GridSearchCV` within a `Pipeline` to automatically find the most optimal imputation strategies.
+* **Day 39:** Explored Multivariate Imputation using Scikit-Learn's `KNNImputer`. Learned how it calculates `nan_euclidean` distances to estimate missing values, and compared its predictive accuracy against a standard `SimpleImputer`.
