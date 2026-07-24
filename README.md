@@ -15,6 +15,7 @@ The folders are organized based on the course curriculum. Here is my progress so
 * 📁 `Day_18_Web_Scraping/` - Using BeautifulSoup and requests (Scraping Quotes to Scrape).
 * 📁 `Day_19_to_22_EDA/` - Exploratory Data Analysis (Univariate, Bivariate, Multivariate) and Pandas Profiling.
 * 📁 `Day_23_to_34_Feature_Engineering/` - Feature Scaling, Categorical Encoding, ColumnTransformers, Pipelines, Mathematical & Power Transformations, and Date/Time variables.
+* 📁 `Day_35_to_40_Handling_Missing_Data/` - Complete Case Analysis, Univariate & Multivariate Imputation (KNN & MICE), and Missing Indicators.
 
 *(I will continue adding folders as I progress through the course!)*
 
@@ -51,3 +52,4 @@ The folders are organized based on the course curriculum. Here is my progress so
 * **Day 37:** Handled missing categorical data using Most Frequent (Mode) imputation for MCAR data, and created a dedicated "Missing" category for columns with too many missing values.
 * **Day 38:** Learned Random Sample Imputation to preserve data variance. Used Scikit-Learn's `MissingIndicator` to flag missing values for the model, and applied `GridSearchCV` within a `Pipeline` to automatically find the most optimal imputation strategies.
 * **Day 39:** Explored Multivariate Imputation using Scikit-Learn's `KNNImputer`. Learned how it calculates `nan_euclidean` distances to estimate missing values, and compared its predictive accuracy against a standard `SimpleImputer`.
+* **Day 40:** Built the MICE (Multivariate Imputation by Chained Equations) algorithm from scratch to handle MAR (Missing At Random) data. Implemented a custom loop using Linear Regression to iteratively predict and fill missing values until convergence.
