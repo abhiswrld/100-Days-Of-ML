@@ -16,6 +16,7 @@ The folders are organized based on the course curriculum. Here is my progress so
 * 📁 `Day_19_to_22_EDA/` - Exploratory Data Analysis (Univariate, Bivariate, Multivariate) and Pandas Profiling.
 * 📁 `Day_23_to_34_Feature_Engineering/` - Feature Scaling, Categorical Encoding, ColumnTransformers, Pipelines, Mathematical & Power Transformations, and Date/Time variables.
 * 📁 `Day_35_to_40_Handling_Missing_Data/` - Complete Case Analysis, Univariate & Multivariate Imputation (KNN & MICE), and Missing Indicators.
+* 📁 `Day_41_to_44_Outliers/` - Outlier Detection and Treatment (Z-Score, IQR, Percentile methods, Trimming, and Capping).
 
 *(I will continue adding folders as I progress through the course!)*
 
