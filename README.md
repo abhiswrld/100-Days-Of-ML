@@ -17,6 +17,7 @@ The folders are organized based on the course curriculum. Here is my progress so
 * 📁 `Day_23_to_34_Feature_Engineering/` - Feature Scaling, Categorical Encoding, ColumnTransformers, Pipelines, Mathematical & Power Transformations, and Date/Time variables.
 * 📁 `Day_35_to_40_Handling_Missing_Data/` - Complete Case Analysis, Univariate & Multivariate Imputation (KNN & MICE), and Missing Indicators.
 * 📁 `Day_41_to_44_Outliers/` - Outlier Detection and Treatment (Z-Score, IQR, Percentile methods, Trimming, and Capping).
+* 📁 `Day_45_to_49_Feature_Construction_PCA/` - Feature Construction, Splitting, Curse of Dimensionality, and Principal Component Analysis (PCA).
 
 *(I will continue adding folders as I progress through the course!)*
 
@@ -60,3 +61,7 @@ The folders are organized based on the course curriculum. Here is my progress so
 * **Day 44:** Explored Percentile-based outlier detection. Used Pandas `quantile()` to establish custom thresholds (1st and 99th percentiles) and treated the outliers using Trimming and Capping (Winsorization).
 * **Day 45:** Explored Feature Construction and Feature Splitting. Engineered a new `Family_type` feature from `SibSp` and `Parch` to improve Logistic Regression accuracy, and used Pandas string manipulation (`str.split`) to extract passenger titles from the `Name` column.
 * **Day 46:** Covered the theoretical concepts of the "Curse of Dimensionality." Learned how high-dimensional spaces cause data sparsity, ruin distance-based algorithms, and increase computation time. Outlined the two main solutions: Feature Selection and Feature Extraction (PCA, LDA, t-SNE).
+* **Day 47:** Began learning Principal Component Analysis (PCA). Explored the geometric intuition behind the algorithm, understanding how PCA rotates coordinate axes to create new Principal Components that maximize data variance, allowing for dimensionality reduction without losing critical information.
+* **Day 48:** Explored the mathematical formulation of PCA. Learned the step-by-step process: Mean Centering, computing the Covariance Matrix, calculating Eigenvectors and Eigenvalues, selecting the top Principal Components, and performing the final dot product transformation.
+* **Day 49:** Explored when PCA fails, particularly with circular/spherical data, high overlapping projections, and non-linear patterns (like sine waves or parabolas). Also applied PCA on the MNIST dataset to visualize dimensionality reduction.
+* **Day 50:** Started Machine Learning algorithms with Simple Linear Regression. Learned the geometric intuition behind the "Best Fit Line" and the human intuition behind the slope ($m$ / weight) and y-intercept ($b$ / offset) in the linear equation $y = mx + b$.
